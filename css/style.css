@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.greeting {
+    background-image: url("/img/home_main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg {
+    width: auto;
+    height: 1080px;
+    background-color: rgba(20, 39, 74, 0.5);
+}
+
+.icon {
+    display: inline-block;
+    font-family: Adobe Garamond Pro;
+    width: 256px;
+    height: 149px;
+    background-image: url("/img/icon.svg");
+    margin-left: 213px;
+}
+
+.icon h2 {
+    font-size: 38px;
+    padding-left: 41px;
+    padding-top: 40px;
+
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #14274A;
+}
+
+.icon p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 80px;
+    letter-spacing: 0.6em;
+    font-weight: 700;
+}
+
+header {
+    position: absolute;
+    display: inline-block;
+    margin-left: 542px;
+    margin-top: 59px;
+}
+
+.nav {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-right: 90px;
+    line-height: 30.48px;
+    font-weight: 400;
+}
+
+.nav_active {
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+}
+
+.burger {
+    display: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.stick {
+    width: 50px;
+    height: 10px;
+    background-color: #E0B973;
+    margin-bottom: 10px;
+    
+}
+
+.text {
+    margin-left: 213px;
+    margin-top: 193px;
+}
+
+#welcome_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+    line-height: 60.95px;
+}
+
+.text h1 {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    color: #fff;
+    font-size: 154px;
+    line-height: 100px;
+    letter-spacing: 0.07em;
+    font-weight: 800;
+}
+
+#hotel_text {
+    font-family: Adobe Garamond Pro;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.4em;
+}
+
+.text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30.48px;
+    color: #fff;
+    letter-spacing: 0.1em;
+
+}
+
+.book {
+    width: 268px;
+    height: 78px;
+    background-image: url("/img/book_bg.svg");
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 108px;
+    padding-left: 32px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.book img {
+    display: inline-block;
+}
+
+.book p {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 0;
+    padding-left: 18px;
+    margin-top: -2px;
+}
+
+@media (max-width: 600px) {
+    .greeting {
+        background-position: 70% 0;
+        height: 100vh;
+        
+    }
+
+    .icon {
+        position: absolute;
+        transform: scale(0.4);
+        margin-top: -45px;
+        margin-left: -30px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+}
